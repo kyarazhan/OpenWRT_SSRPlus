@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: G-Dock
+name: G-Dock SSR+Plus
 
 on:
   repository_dispatch:
