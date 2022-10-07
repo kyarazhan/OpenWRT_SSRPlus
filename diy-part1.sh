@@ -11,9 +11,10 @@
 #
 
 #Clone SSRPlus source code
-git clone https://github.com/fw876/helloworld package/SSRPlus
+git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+
 #Clone OpenAppFilter source code
-git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+#git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
