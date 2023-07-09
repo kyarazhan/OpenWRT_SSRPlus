@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: G-Dock SSR+Plus
+name: CT3003 SSR+Plus
 
 on:
   repository_dispatch:
@@ -22,7 +22,7 @@ on:
     branches:
       - master
     paths:
-      - 'G-Dock.config'  
+      - 'CT3003.config'  
   schedule:
 #    - cron: 0 8 * * 0
     - cron: 0 8 * * 3
