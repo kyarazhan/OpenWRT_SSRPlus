@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: CT3003 SSR+Plus
+name: x64 SSR+Plus
 
 on:
   repository_dispatch:
@@ -22,7 +22,7 @@ on:
     branches:
       - master
     paths:
-      - 'CT3003.config'  
+      - 'x64.config'  
   schedule:
 #    - cron: 0 8 * * 0
     - cron: 0 8 * * 3
@@ -33,7 +33,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: CT3003.config
+  CONFIG_FILE: x64.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
