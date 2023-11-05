@@ -11,7 +11,7 @@
 #
 
 #Clone SSRPlus source code
-git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+#git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
