@@ -19,4 +19,4 @@ sed -i 's/OpenWrt/Kyara/g' package/base-files/files/bin/config_generate
 # Modify default wireless name
 sed -i 's/OpenWrt/Kyara/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 # 删除默认密码
-`sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings`
+sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
